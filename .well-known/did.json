@@ -1,1 +1,31 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:kakhil2.github.io:.well-known",
+  "verificationMethod": [
+    {
+      "id": "did:web:kakhil2.github.io:.well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:kakhil2.github.io:.well-known",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "PVOyg6HgHP14CqZunKgIL-DuKL9WwzjtWgll8PSa9UU"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:kakhil2.github.io:.well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU"
+  ],
+  "assertionMethod": [
+    "did:web:kakhil2.github.io:.well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU"
+  ]
+}

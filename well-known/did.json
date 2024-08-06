@@ -9,12 +9,12 @@
       }
     }
   ],
-  "id": "did:web:kakhil2.github.io:.well-known",
+  "id": "did:web:kakhil2.github.io:well-known",
   "verificationMethod": [
     {
-      "id": "did:web:kakhil2.github.io:.well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU",
+      "id": "did:web:kakhil2.github.io:well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:kakhil2.github.io:.well-known",
+      "controller": "did:web:kakhil2.github.io:well-known",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -23,10 +23,10 @@
     }
   ],
   "authentication": [
-    "did:web:kakhil2.github.io:.well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU"
+    "did:web:kakhil2.github.io:well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU"
   ],
   "assertionMethod": [
-    "did:web:kakhil2.github.io:.well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU"
+    "did:web:kakhil2.github.io:well-known#z6MkiaewKbLrzCMnY8rY4bakpBjBkMsfhqpCeq1CY51j5JYU"
   ]
 }
  
